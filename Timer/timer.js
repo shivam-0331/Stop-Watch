@@ -43,14 +43,14 @@ function startTimer() {
             min = 0;
         }
 
-        if (sec < 10 || sec === 10) {
+        if (sec < 10 || sec === 0) {
             sec = "0" + sec;
         }
 
-        if (min < 10 || min === 10) {
+        if (min < 10 || min === 0) {
             min = "0" + min;
         }
-        if (hr < 10 || hr === 10) {
+        if (hr < 10 || hr === 0) {
             hr = "0" + hr;
         }
 
